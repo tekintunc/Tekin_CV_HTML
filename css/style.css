@@ -1,0 +1,140 @@
+/*
+* VARIABLES
+*/
+/*
+* GENERAL STYLES
+*/
+.text-sm {
+  font-size: 14px;
+}
+
+.text-md {
+  font-size: 16px;
+}
+
+.primary-title {
+  color: #404040;
+  text-decoration: underline;
+  margin: 50px 0px 25px 0px;
+}
+
+.secondary-title {
+  color: #404040;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.colorful-date {
+  color: #f15548;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.progress {
+  border-radius: 0px;
+}
+
+.progress .progress-bar {
+  background-color: #f15548;
+}
+
+.form-check-input:checked {
+  background-color: #f15548;
+  border-color: #f15548;
+}
+
+.form-check-input:checked[type="checkbox"] {
+  background-image: none;
+}
+
+/*
+* HEADER
+*/
+header {
+  background-color: #f2f2f2;
+}
+
+header #top-color {
+  width: 100%;
+  height: 8px;
+  background-color: #f15548;
+}
+
+header #header-details {
+  padding: 2px 0px;
+}
+
+header #header-fullname h1 {
+  color: #404040;
+  font-size: 60px;
+}
+
+header #header-fullname p {
+  font-style: italic;
+  font-size: 20px;
+}
+
+header #header-img img {
+  width: 160px;
+  border-radius: 50%;
+}
+
+header #header-contact {
+  text-align: right;
+}
+
+header #header-contact .header-contact-group {
+  margin: 4px 0px;
+  color: #404040;
+}
+
+header #header-contact .header-contact-group i {
+  color: #f15548;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+/*
+* EDUCATION
+*/
+#education .education-group {
+  position: relative;
+}
+
+#education .education-group .education-img {
+  position: absolute;
+  top: 5px;
+  right: 85px;
+  width: 65px;
+}
+
+/*
+* INTERESTS
+*/
+#interests i {
+  font-size: 30px;
+  color: #f15548;
+}
+
+/*
+* WORK EXPERIENCE
+*/
+#work-experience .work-experience-group {
+  position: relative;
+}
+
+#work-experience .work-experience-group .work-experience-img {
+  position: absolute;
+  top: 5px;
+  right: 85px;
+  width: 65px;
+}
+
+#work-experience .work-experience-group .work-experience-details {
+  margin-top: 10px;
+}
+
+#work-experience .work-experience-group .work-experience-details li {
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */
